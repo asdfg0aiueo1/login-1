@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#login-box {
+    /* Frame 5 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 48px;
+gap: 40px;
+
+position: absolute;
+width: 432px;
+height: 483.38px;
+left: calc(50% - 432px/2);
+top: calc(50% - 483.38px/2 - 0.31px);
+
+background: rgba(255, 255, 255, 0.8);
+border-radius: 16px;
+}
+
+.login-form-top img {
+    margin-top: ;
+    margin-bottom: ;
+    margin-right: ;
+    margin-left: 30px;
+}
+.container {
+    /* Frame 4 */
+
+
+/* Auto layout */
+position: relative;
+display: table-cell;
+vertical-align: middle;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+width: 200px;
+height: 38px;
+top: 30px;
+bottom: ;
+right: ;
+left: 1130px;
+background: #1966CC;
+border-radius: 32px;
+}
+
+.container-image {
+    /* _i_icon_02456_icon_024560 1 */
+width: 16px;
+height: 16px;
+margin-top: : ;
+margin-bottom: ;
+margin-right: 0px;
+margin-left: 40px;
+}
+
+.container-text {
+    /* お問い合わせ */
+width: 96px;
+height: 22px;
+margin-top: ;
+margin-bottom: ;
+margin-right: 0px;
+margin-left: 10px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+/* or 22px */
+
+display: inline-block;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.frame {
+    /* Frame 2 */
+
+
+/* Auto layout */
+
+display: table;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 40px;
+gap: 10px;
+
+width: 336px;
+height: 38px;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.text {
+    /* 医師会員　ポータルサイトログイン */
+display: table-cell;
+vertical-align: middle;
+width: 256px;
+height: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+/* or 22px */
+
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+id {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input[type="id"] {
+    height: 25px;
+    width: 336px;
+    border: none;
+    outline: none;
+    border-top: ;
+    border-bottom: 1px solid #999999;
+    border-right: ;
+    border-left: ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #999999;
+    background-color: transparent;
+    transition: 0.3s ease;
+}
+
+input[type="password"] {
+    height: 25px;
+    width: 336px;
+    border: none;
+    outline: none;
+    border-top: ;
+    border-bottom: 1px solid #999999;
+    border-right: ;
+    border-left: ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #999999;
+    background-color: transparent;
+    transition: 0.3s ease;
+}
+
+input[type="submit"] {
+    /* Frame 3 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 8px 80px;
+gap: 10px;
+
+position: absolute;
+width: 248px;
+height: 38px;
+left: 92px;
+top: 359.38px;
+
+background: #F86666;
+border-radius: 32px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: 500px;
+    padding-left: ;
+    text-align: right;
+    background: #F86666;
+    color: #FFFFFF;
+    line-height: 1em;
+    transition: .3s
+}
+
+.button:hover {
+    color: #F86666;
+    background: #FFFFFF;
+}
+
+.button img {
+    /* Mask group */
+width: 16px;
+height: 16px;
+}
+
+.login-design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-design img {
+    height: 16px;
+    width: 16px;
+    margin-top: 40px;
+    margin-bottom: ;
+    margin-right: 130px;
+    margin-left: ;
+    z-index: 1;
+}
+
+.forget {
+    height: 22px;
+    width: 240px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.forget img {
+    /* _i_icon_02730_icon_027300 1 */
+width: 20px;
+height: 20px;
+margin-top: ;
+margin-bottom: ;
+margin-right: 10px;
+margin-left: ;
+}
+
+.forget a {
+    /* パスワードを忘れた方 */
+width: 200px;
+height: 22px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+text-decoration: none;
+color: #1966CC;
+}
